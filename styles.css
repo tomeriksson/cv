@@ -8,13 +8,14 @@
 }
 
 body {
-    font-family: "Source Sans 3", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
     margin: 0;
     padding: 40px 20px;
+    font-size: 14px
 }
 
 .container {
@@ -74,6 +75,12 @@ p, ul {
 
 .sub-section {
     border-bottom: 1px solid #eee;
+}
+
+.split-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
 
 ul {
